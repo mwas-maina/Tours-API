@@ -19,13 +19,18 @@
   },
   "homepage": "https://github.com/mwas-maina/toursapp#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jargon": "^0.2.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.14",
     "morgan": "^1.10.0",
     "ndb": "^1.1.5",
-    "slugify": "^1.4.6"
+    "nodemailer": "^6.4.16",
+    "pug": "^3.0.0",
+    "slugify": "^1.4.6",
+    "validator": "^13.1.17"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
