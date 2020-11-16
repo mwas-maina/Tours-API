@@ -1,0 +1,42 @@
+{
+  "name": "toursapp",
+  "version": "1.0.0",
+  "description": "a nodejs,express and mongoDB app",
+  "main": "app.js",
+  "scripts": {
+    "start": " nodemon server.js",
+    "start:prod": "NODE_ENV=production  nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwas-maina/toursapp.git"
+  },
+  "author": "Emmanuel Mwangi Maina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwas-maina/toursapp/issues"
+  },
+  "homepage": "https://github.com/mwas-maina/toursapp#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jargon": "^0.2.0",
+    "mongoose": "^5.10.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
